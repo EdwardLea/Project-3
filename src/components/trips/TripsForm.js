@@ -28,14 +28,14 @@ const TripsForm = ({ options, data, handleChange, handleSubmit, handleMultiChang
             <div className="field">
               <label className="label">Image</label>
               <div className="control">
-                {/*<input
+                <input
                   className="input"
                   placeholder="Image"
                   name="image"
                   onChange={handleChange}
                   value={data.image || ''}
-                />*/}
-                <ReactFilestack
+                />
+                {/*<ReactFilestack
                   apikey={`${fileStack}`}
                   mode={'pick'}
                   onSuccess={(res) => handleChange({
@@ -46,7 +46,7 @@ const TripsForm = ({ options, data, handleChange, handleSubmit, handleMultiChang
                   onError={(err) => console.log(err)}
                   buttonText={'Upload Image'}
                   buttonClass={'button is-dark is-rounded'}
-                />
+                />*/}
                 {data.image &&<small> Imaged Uploaded</small>}
                 <br/>
                 {errors.image && <small className="help is-danger">{errors.image}</small>}
