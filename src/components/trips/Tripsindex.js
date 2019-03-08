@@ -8,7 +8,6 @@ class TripsIndex extends React.Component {
   constructor() {
     super()
     this.state = {
-      trips: [],
       filteredTrips: []
     }
     this.handleSearch = this.handleSearch.bind(this)
@@ -38,6 +37,8 @@ class TripsIndex extends React.Component {
         </div>
       </section>
     )
+
+    console.log('trips',this.state.trips)
 
     return (
       <section className="section">

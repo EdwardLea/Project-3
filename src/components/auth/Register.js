@@ -80,7 +80,14 @@ class Register extends React.Component {
                 <div className="field">
                   <label className="label">Image</label>
                   <div className="control">
-                    <ReactFilestack
+                    <input
+                      className="input"
+                      placeholder="Image"
+                      name="image"
+                      onChange={this.handleChange}
+                      value={this.state.data.image || ''}
+                    />
+                    {/*<ReactFilestack
                       apikey={`${fileStack}`}
                       mode={'pick'}
                       onSuccess={(res) => this.handleChange({
@@ -91,7 +98,7 @@ class Register extends React.Component {
                       onError={(err) => console.log(err)}
                       buttonText={'Add Image'}
                       buttonClass={'button is-dark is-rounded'}
-                    />
+                    />*/}
                     {this.state.data.image && <small> Imaged Uploaded</small>}
                     <br/>
                     {this.state.errors.image && (
