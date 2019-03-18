@@ -15,27 +15,27 @@ mongoose.connect(dbURI, (err, db) => {
       return User.create([{
         username: 'Tom',
         email: 't@mail.com',
-        image: 'https://cdn.filestackcontent.com/bUezLSDsQJGpiT2tsecS',
+        image: 'https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1',
         password: 't',
         passwordConfirmation: 't'
       },
       {
         username: 'Dexter',
         email: 'd@mail.com',
-        image: 'https://cdn.filestackcontent.com/BF5z5RVoRAq2gJ5rG9d7',
+        image: 'https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1',
         password: 'd',
         passwordConfirmation: 'd'
       },
       {
         username: 'Bete',
         email: 'b@mail.com',
-        image: 'https://cdn.filestackcontent.com/bnorpUvFSNCtKKCVHnMW',
+        image: 'https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1',
         password: 'b',
         passwordConfirmation: 'b'
       },{
         username: 'Jessica',
         email: 'j@mail.com',
-        image: 'https://cdn.filestackcontent.com/iNyTMe2SnO19kvs9IQ0w',
+        image: 'https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1',
         password: 'j',
         passwordConfirmation: 'j'
       }
