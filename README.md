@@ -5,10 +5,10 @@
 
 ## Technologies used
 
-* Express.js, Mongoose & MongoDB
-* React.js, Webpack, Babel, Axios & Yarn
 * HTML5 & JavaScript (ES6)
+* React.js, Webpack, Babel, Axios & Yarn
 * CSS3, CSS Animation, SCSS & Bulma
+* Express.js, Mongoose & MongoDB
 * Insomnia, Mocha & Chai
 * Git, & GitHub
 * Heroku
